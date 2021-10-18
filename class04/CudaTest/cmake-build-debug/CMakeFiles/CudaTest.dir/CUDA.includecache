@@ -1,0 +1,16 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+E:/CPP_Codes/kafedera/class04/CudaTest/main.cu
+stdio.h
+-
+time.h
+-
+cuda_runtime.h
+E:/CPP_Codes/kafedera/class04/CudaTest/cuda_runtime.h
+
